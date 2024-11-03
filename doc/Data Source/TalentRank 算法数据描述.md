@@ -1,4 +1,4 @@
-# **TalentRank 算法数据描述**
+# **数据集描述**
 
 
 
@@ -16,16 +16,45 @@ TalentRank 算法旨在评估 GitHub 开发者的技术能力，通过分析他�
 
 ### **项目元数据**
 
-- **项目名称 (name)**：每个项目的唯一标识符，用于在展示和分析中引用项目。
-- **项目描述 (description)**：项目的简要说明，提供有关项目内容的上下文信息。
-- **Star 数 (stargazers_count)**：表示项目在 GitHub 上被标记为“Star”的次数，反映了项目的受欢迎程度。
-- **Fork 数 (forks_count)**：项目被其他开发者 Fork 的次数，表示项目的流行度和社区使用度。
-- **开放的 Issues 数 (open_issues_count)**：项目当前未解决的问题数量，显示项目的活跃度和问题跟踪状况。
-- **项目 URL (html_url)**：指向项目页面的链接，便于用户进一步查看项目详情。
+### 指定用户作为owner和member的仓库信息
+1. 项目名称 (name): 每个仓库的名称。 
+2. 项目描述 (description): 每个仓库的简要描述。
+3. Star 数 (stargazers_count): 每个仓库被标记为 Star 的数量。
+4. Fork 数 (forks_count): 每个仓库被 Fork 的数量。
+5. 仓库 URL (html_url): 每个仓库的网页 URL 地址。 
+6. 仓库所有者 (owner.login): 仓库拥有者的用户名。
 
+### 用户贡献的仓库信息 push pr issues
+1. 仓库名称列表
 
+### 获取指定用户的个人资料信息
+1. 用户名: 用户的 GitHub 登录名 (login)。 
+2. 用户的全名 (name)。 
+3. 用户所属的公司或组织 (company)。 
+4. 用户的博客或个人网站 URL (blog)。 
+5. 用户所在的位置 (location)。 
+6. 用户的邮箱地址 (email)。 
+7. 用户的个人简介或自我描述 (bio)。 
+8. 库数: 用户拥有的公开仓库数量 (public_repos)。 
+9. 数: 关注该用户的粉丝数 (followers)。
+10. : 用户关注的其他用户数量 (following)。 
+11. Hub 个人主页: 用户的 GitHub 个人主页 URL (html_url)。
 
-### **开发者贡献数据**
+### 获取指定公司的所有仓库信息
+1. 仓库名称: 每个仓库的名称 (name)。 
+2. 仓库描述: 每个仓库的简要描述 (description)。
+3. Star 数: 每个仓库被标记为 Star 的数量 (stargazers_count)。
+4. Fork 数: 每个仓库被 Fork 的数量 (forks_count)。
+5. 仓库 URL: 每个仓库的网页 URL 地址 (html_url)。
 
-- **贡献者用户名 (login)**：开发者的 GitHub 用户名，标识每个项目的贡献者。
-- **贡献度 (contributions)**：开发者在特定项目中的贡献数量，通常以提交数表示。这个指标用于衡量开发者在项目中的参与度。
+### 获取指定公司的资料信息
+1. 组织名称: 组织的登录名 (login)。
+2. 公司/组织全名: 组织的完整名称 (name)。
+3. 描述: 组织的描述信息 (description)。
+4. 博客: 组织的博客或官方网站 URL (blog)。
+5. 位置: 组织的地理位置 (location)。
+6. 邮箱: 组织的邮箱地址 (email)。
+7. 公开仓库数: 组织拥有的公开仓库数量 (public_repos)。
+8. 粉丝数: 关注该组织的用户数 (followers)。
+9. 成员数: 组织的成员数量 (members_count)（注意：GitHub API 可能不直接提供这个字段，因此 members_count 可能始终为 None，需要进一步处理）。
+10. GitHub 主页: 组织的 GitHub 主页 URL (html_url)。
