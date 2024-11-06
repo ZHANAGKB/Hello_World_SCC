@@ -320,23 +320,23 @@ def get_data_collection(username, headers):
     # result_df.to_csv(file_path, index=False, encoding='utf-8')
 
 
-def main():
-    # 主程序逻辑
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
-    file_path = f"../doc/Data Source/all_user_profile.csv"
-    users = fetch_all_github_users(start_since=0, per_page=100, num_pages=10, headers=headers)
-
-    all_user_profile = pd.DataFrame()
-    for user in users:
-        print(user['login'])
-        username = user['login']
-        user_profile = get_data_collection(username, headers)
-        if user_profile is not None:
-            all_user_profile = pd.concat([all_user_profile, user_profile], ignore_index=True)
-            all_user_profile.to_csv(file_path, index=False, encoding='utf-8')
-        sleep(0.01)
-
-
-if __name__ == "__main__":
-    main()
+# def main():
+#     # 主程序逻辑
+#     GITHUB_TOKEN = "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"
+#     headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+#     file_path = f"../doc/Data Source/all_user_profile.csv"
+#     users = fetch_all_github_users(start_since=0, per_page=100, num_pages=10, headers=headers)
+#
+#     all_user_profile = pd.DataFrame()
+#     for user in users:
+#         print(user['login'])
+#         username = user['login']
+#         user_profile = get_data_collection(username, headers)
+#         if user_profile is not None:
+#             all_user_profile = pd.concat([all_user_profile, user_profile], ignore_index=True)
+#             all_user_profile.to_csv(file_path, index=False, encoding='utf-8')
+#         sleep(0.01)
+#
+#
+# if __name__ == "__main__":
+#     main()
