@@ -1,16 +1,16 @@
-import math
 from collections import Counter
-
 import requests
-import pandas as pd
+import os
 
+# 将 GitHub Token 从硬编码改为环境变量的读取方式
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+headers = {"Authorization": f"token {GITHUB_TOKEN}"}
 
 def get_user_profile(username):
     """
     获取用户的个人资料信息
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+
 
     url = f"https://api.github.com/users/{username}"
     response = requests.get(url, headers=headers)
@@ -54,8 +54,7 @@ def get_user_profile_nation_detect(username):
     """
     获取用户的个人资料信息，并分别获取关注者和关注中的人的国家信息，更新用户国家信息
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+
 
     # 获取用户的个人资料
     url = f"https://api.github.com/users/{username}"
@@ -69,7 +68,7 @@ def get_user_profile_nation_detect(username):
     location = profile_data.get("location")
 
     # 清洗用户的国家信息
-    if not location or any(char in location for char in ['#', '%', '&', '*', '乱码', '+', '-', '/']):
+    if not location or any(char in location for char in ['#', '%', '&', '*', '乱码']):
         location = "Unknown"
 
     profile = {
@@ -86,56 +85,56 @@ def get_user_profile_nation_detect(username):
         "GitHub 个人主页": profile_data.get("html_url")
     }
 
-    # 获取互相关注用户的国家信息
-    mutual_follow_nations = []
-
-    # 获取关注者列表
-    followers_url = f"https://api.github.com/users/{username}/followers"
-    followers_response = requests.get(followers_url, headers=headers)
-    if followers_response.status_code == 200:
-        followers = followers_response.json()
-
-        for follower in followers:
-            follower_name = follower['login']
-            # 检查互相关注
-            following_url = f"https://api.github.com/users/{follower_name}/following/{username}"
-            following_response = requests.get(following_url, headers=headers)
-
-            if following_response.status_code == 204:  # 如果互相关注
-                # 获取该互相关注者的位置信息
-                follower_profile_url = f"https://api.github.com/users/{follower_name}"
-                follower_profile_response = requests.get(follower_profile_url, headers=headers)
-                if follower_profile_response.status_code == 200:
-                    follower_data = follower_profile_response.json()
-                    follower_location = follower_data.get("location")
-                    # 清洗并记录互相关注者的有效国家信息
-                    if follower_location and not any(
-                            char in follower_location for char in ['#', '%', '&', '*', '乱码', '+', '-', '/']):
-                        mutual_follow_nations.append(follower_location)
-
-    # 获取“关注中”用户的国家信息
-    following_nations = []
-    following_url = f"https://api.github.com/users/{username}/following"
-    following_response = requests.get(following_url, headers=headers)
-    if following_response.status_code == 200:
-        following = following_response.json()
-        for user in following:
-            user_url = user.get("url")  # 获取每个用户的详细资料 URL
-            user_response = requests.get(user_url, headers=headers)
-            if user_response.status_code == 200:
-                user_data = user_response.json()
-                user_location = user_data.get("location")
-                # 仅在 user_location 有效时添加
-                if user_location and not any(
-                        char in user_location for char in ['#', '%', '&', '*', '乱码', '+', '-', '/']):
-                    following_nations.append(user_location)
-
-    # 统计出现最多的国家
-    most_common_follower_nation = Counter(mutual_follow_nations).most_common(1)[0][0] if mutual_follow_nations else None
-    most_common_following_nation = Counter(following_nations).most_common(1)[0][0] if following_nations else None
-
-    # 更新用户国家信息
     if location == "Unknown":
+        # 获取互相关注用户的国家信息
+        mutual_follow_nations = []
+
+        # 获取关注者列表
+        followers_url = f"https://api.github.com/users/{username}/followers"
+        followers_response = requests.get(followers_url, headers=headers)
+        if followers_response.status_code == 200:
+            followers = followers_response.json()
+
+            for follower in followers:
+                follower_name = follower['login']
+                # 检查互相关注
+                following_url = f"https://api.github.com/users/{follower_name}/following/{username}"
+                following_response = requests.get(following_url, headers=headers)
+
+                if following_response.status_code == 204:  # 如果互相关注
+                    # 获取该互相关注者的位置信息
+                    follower_profile_url = f"https://api.github.com/users/{follower_name}"
+                    follower_profile_response = requests.get(follower_profile_url, headers=headers)
+                    if follower_profile_response.status_code == 200:
+                        follower_data = follower_profile_response.json()
+                        follower_location = follower_data.get("location")
+                        # 清洗并记录互相关注者的有效国家信息
+                        if follower_location and not any(
+                                char in follower_location for char in ['#', '%', '&', '*', '乱码']):
+                            mutual_follow_nations.append(follower_location)
+
+        # 获取“关注中”用户的国家信息
+        following_nations = []
+        following_url = f"https://api.github.com/users/{username}/following"
+        following_response = requests.get(following_url, headers=headers)
+        if following_response.status_code == 200:
+            following = following_response.json()
+            for user in following:
+                user_url = user.get("url")  # 获取每个用户的详细资料 URL
+                user_response = requests.get(user_url, headers=headers)
+                if user_response.status_code == 200:
+                    user_data = user_response.json()
+                    user_location = user_data.get("location")
+                    # 仅在 user_location 有效时添加
+                    if user_location and not any(char in user_location for char in ['#', '%', '&', '*', '乱码']):
+                        following_nations.append(user_location)
+
+        # 统计出现最多的国家
+        most_common_follower_nation = Counter(mutual_follow_nations).most_common(1)[0][
+            0] if mutual_follow_nations else None
+        most_common_following_nation = Counter(following_nations).most_common(1)[0][0] if following_nations else None
+
+        # 更新用户国家信息
         if most_common_follower_nation and most_common_following_nation:
             if most_common_follower_nation == most_common_following_nation:
                 location = most_common_follower_nation  # 两个国家相同，直接使用
@@ -146,11 +145,11 @@ def get_user_profile_nation_detect(username):
         elif most_common_follower_nation:
             location = most_common_follower_nation
 
-    profile["国家"] = location
-    profile["关注者出现最多的国家"] = most_common_follower_nation
-    profile["关注中出现最多的国家"] = most_common_following_nation
+        profile["国家"] = location
+        profile["关注者出现最多的国家"] = most_common_follower_nation
+        profile["关注中出现最多的国家"] = most_common_following_nation
+        # print(mutual_follow_nations)
 
-    # print(mutual_follow_nations)
     # profile_df = pd.DataFrame([profile])
     return profile
 
@@ -159,8 +158,6 @@ def get_user_total_stars(username):
     """
     获取用户的所有仓库的总 Star 数（包括用户作为 Owner 和 Member 的仓库）。
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
 
     total_stars = 0
 
@@ -273,12 +270,11 @@ def evaluate_overall_contribution(contributed_repos):
 
     return total_score
 
+
 def get_user_contributed_repos(username):
     """
     获取用户每个贡献过的仓库的资料，包括仓库的名称、star 数、仓库地址和贡献分数。
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
 
     contributed_repos = []  # 存储符合条件的仓库信息
     page = 1
@@ -331,8 +327,6 @@ def get_user_followers_and_following(username):
     """
     获取指定用户的关注者数和关注中数，并返回加权后的 DataFrame。
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
     data = {
         "用户名": username,
         "关注者数": 0,
@@ -368,8 +362,7 @@ def get_user_repos(username):
     """
     获取用户的仓库信息（包括用户作为 Owner 和 Member 的仓库），并统计总的 Star 数和 Fork 数
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+
 
     repos = []
     total_stars = 0
@@ -407,9 +400,10 @@ def get_user_repos(username):
             page += 1
 
     # 将仓库信息转换为 DataFrame
-    df_repos = pd.DataFrame(repos)
+    # df_repos = pd.DataFrame(repos)
 
-    return df_repos
+    return repos
+
 
 def calculate_talent_rank(total_stars, followers, contribution_score):
     # 定义权重
@@ -419,20 +413,19 @@ def calculate_talent_rank(total_stars, followers, contribution_score):
 
     # 计算 TalentRank_score
     TalentRank_score = (
-        total_stars * total_stars_weight +
-        followers * followers_weight +
-        contribution_score * contribution_score_weight
+            total_stars * total_stars_weight +
+            followers * followers_weight +
+            contribution_score * contribution_score_weight
     )
     return int(TalentRank_score)
 
 
-def search_repositories_by_language_and_topic(language, topic,max_results=200):
+def search_repositories_by_language_and_topic(language, topic, max_results=10):
     """
     使用 GitHub 搜索 API 组合搜索项目，按编程语言和主题标签筛选，
     并只返回个人用户创建的项目。分页获取最多 max_results 条结果。
     """
-    GITHUB_TOKEN = "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"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+
 
     # 每页获取 100 个结果
     per_page = 100
