@@ -11,69 +11,78 @@ TalentRank 算法用于衡量开发者在技术社区中的综合表现。通过
 个人影响力指标评估开发者在社区中的知名度和受欢迎程度，主要包括：
 
 - **Star 数**：反映项目的受欢迎程度，可作为开发者影响力的一个基本指标。
-- **Fork 数**：表示项目的传播程度和社区接受度。
 - **粉丝数（Followers）**：直接反映开发者的受欢迎程度和影响力。
 
 #### 个人影响力得分公式
-将 Star 数、Fork 数和粉丝数设定权重，计算总得分：
+影响力得分通过以下公式计算：
 
 $$
-\text{个人影响力得分} = (w_{\text{star}} \times \text{Star 数}) + (w_{\text{fork}} \times \text{Fork 数}) + (w_{\text{followers}} \times \text{粉丝数})
+\text{influence\_score} = (0.7 \times \text{repo\_star}) + (0.3 \times \text{repo\_fork})
 $$
 
-- **权重建议**：由于粉丝数直接代表个人影响力，建议 $w_{\text{followers}}$权重大于 $w_{\text{fork}}$ 和 $w_{\text{star}}$。例如：
-  -  $w_{\text{star}} = 0.3 $
-  -  $w_{\text{fork}} = 0.2$ 
-  -  $w_{\text{followers}} = 0.5$ 
+- **repo_star** 的权重设置为 0.7，因为 Star 数可以直接反映出项目的受欢迎程度。
+- **repo_fork** 的权重设置为 0.3，表示 Fork 数对影响力得分的影响稍弱于 Star 数。
+
+### 等级划分
+
+根据 `influence_score` 的值，函数将项目的影响力分为五个等级：
+
+- **5级**：`influence_score` ≥ 1000（影响力最高）
+- **4级**：500 ≤ `influence_score` < 1000
+- **3级**：100 ≤ `influence_score` < 500
+- **2级**：10 ≤ `influence_score` < 100
+- **1级**：`influence_score` < 10（影响力最低）
 
 ### 1.2 个人贡献活跃度
+个人贡献活跃度用于评估开发者在项目中的技术投入和活跃程度。评估指标包括以下几方面：
 
-个人贡献活跃度评估开发者在项目中的技术投入和活跃程度，主要包括：
+- **上传次数（Push）**：通过 `PushEvent` 衡量开发者在项目中的代码提交频率。权重为 0.4。
 
-- **提交次数（Commits）**：衡量开发者在项目中的代码贡献频率。
-- **拉取请求（PR）**：反映贡献质量，考虑 PR 的数量和被接受率（例如，被合并的 PR 比重高的用户得分更高）。
-- **问题参与度（Issues）**：包括创建和回复的 Issue 数量，评估开发者解决问题的能力。
+- **拉取请求（Pull Requests）**：通过 `PullRequestEvent` 反映贡献质量，考虑 PR 的数量和被接受率。被合并的 PR 得分较高，未合并的 PR 权重减半。权重为 0.3。
+
+- **问题参与度（Issues）**：通过 `IssuesEvent` 统计开发者在创建和回复 Issue 中的参与情况，权重为 0.2，反映开发者的协作和问题解决能力。
+
+- **项目的关注（WatchEvent）和派生（ForkEvent）**：用于衡量开发者在项目中的附加贡献，权重各为 0.05。
+
+### 贡献度评价等级
+
+根据上述活动事件的加权得分计算每个仓库的贡献分数，并分为三档贡献度评价：
+
+- **高（3级）**：贡献分数 ≥ 1.5，表明开发者对项目有显著的贡献和活跃度。
+- **中（2级）**：0.5 ≤ 贡献分数 < 1.5，表明开发者对项目有一定的技术投入。
+- **低（1级）**：贡献分数 < 0.5，表明开发者对项目的参与较少。
 
 #### 个人贡献得分公式
-给不同的活动赋予权重，计算总得分：
+
+通过对项目的不同活动赋予权重，计算用户在项目中的总体贡献得分。公式如下：
+
 $$
-\text{个人贡献得分} = (w_{\text{commits}} \times \text{提交次数}) + (w_{\text{pr}} \times \text{PR 数} \times \text{PR 接受率}) + (w_{\text{issues}} \times \text{Issues 数})
+\text{个人贡献得分} = (0.5 \times \text{项目影响力得分}) + (0.5 \times \text{贡献度得分})
 $$
 
+在这个公式中，我们认为项目的影响力和个人在项目中的实际贡献度（如提交次数、PR、Issue 等）同样重要，因此将两者的权重设置为 **一半一半**，即各占 50%。这样既能够反映项目的受欢迎程度，又能有效衡量开发者在项目中的技术投入。
 
-- **权重建议**：PR 质量通常比纯提交次数更重要，因此建议 `w_pr` 大于 `w_commits` 和 `w_issues`。例如：
-  - $ w_{\text{commits}} = 0.2 $
-  - $ w_{\text{pr}} = 0.5$
-  - $w_{\text{issues}} = 0.3 $
 
 ### 1.3 参与项目的重要性
 
 参与项目的重要性反映了开发者所参与项目的整体影响力和受欢迎程度，通过项目的 Star 和 Fork 数量来衡量。
 
-#### 参与项目的重要性得分公式
-将每个项目的 Star 数和 Fork 数分别加权后累加得到总分：
-
-$$
-\text{项目重要性得分} = \sum_{\text{repo}} \left( w_{\text{repoStar}} \times \text{repoStar} + w_{\text{repoFork}} \times \text{repoFork} \right)
-$$
-
-
-- **权重建议**：项目的 Star 数通常比 Fork 数更能代表受欢迎程度，因此建议$w_{\text{repoStar}}$高于 $w_{\text{repoFork}}$。例如：
-  - $w_{\text{repoStar}} = 0.6$
-  - $w_{\text{repoFork}} = 0.4 $
 
 ## 2. 综合 TalentRank 计算
 
-将上述三个部分的得分加权组合成最终的 TalentRank 得分。为确保 TalentRank 分数的合理分布，建议给每部分分数设定最高值，并进行归一化计算。
+通过对 `total_stars`（总 Star 数）、`followers`（粉丝数）和 `contribution_score`（个人贡献分数）赋予不同权重，计算出最终的 TalentRank 得分。此分数能够综合反映开发者的个人影响力、技术贡献度和项目重要性。
 
 ### TalentRank 得分公式
 
 $$
-\text{TalentRank} = w_{\text{personal\_influence}} \times \text{个人影响力得分} + w_{\text{personal\_contribution}} \times \text{个人贡献得分} + w_{\text{project\_importance}} \times \text{项目重要性得分}
+\text{TalentRank} = (w_{\text{total\_stars}} \times \text{总 Star 数}) + (w_{\text{followers}} \times \text{粉丝数}) + (w_{\text{contribution\_score}} \times \text{贡献分数})
 $$
 
-- **权重建议**：如个人贡献活跃度比个人影响力和项目重要性更重要，可以设定 $w_{\text{personal\_contribution}}$ 更高，例如：
-  - $w_{\text{personal\_influence}} = 0.3$
-  - $w_{\text{personal\_contribution}} = 0.5 $
-  - $ w_{\text{project\_importance}} = 0.2$
+在此计算中，建议为每个分量设定不同权重，以确保 TalentRank 的合理分布。例如，如果个人贡献度比个人影响力和项目的重要性更重要，可以将 `contribution_score` 的权重设为更高。具体权重设置如下：
+
+- **权重建议**：
+  - $w_{\text{total\_stars}} = 0.4$
+  - $w_{\text{followers}} = 0.3$
+  - $w_{\text{contribution\_score}} = 0.3$
+
 
