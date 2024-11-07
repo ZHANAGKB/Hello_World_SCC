@@ -1,5 +1,5 @@
 import streamlit as st
-from Utility import get_user_profile
+from Utility import get_user_profile, get_user_profile_nation_detect
 
 # 开发者数据
 developers = []
@@ -27,7 +27,7 @@ if search_mode == "基于用户名搜索":
     # 进行基于用户名的搜索
     if search_button:
         if user_name is not None:
-            developer_data = get_user_profile(user_name)
+            developer_data = get_user_profile_nation_detect(user_name)
             if developer_data:
                 developers.append(developer_data)
                 # 开发者展示卡片
@@ -44,6 +44,8 @@ if search_mode == "基于用户名搜索":
                         st.write("**个人贡献:**")
 
                         st.write("**社交:**")
+                        st.write(f"关注者数: {dev['关注者数']}")
+                        st.write(f"他关注中出现最多的国家: {dev['关注中出现最多的国家']}")
 
             # 没有找到匹配的开发者时显示提示
             if not developer_data:
@@ -53,12 +55,13 @@ if search_mode == "基于用户名搜索":
 
 elif search_mode == "基于领域和 Nation 搜索":
     # 基于领域和 Nation 的搜索
-    field_query = st.text_input("输入开发者领域")
-    nation_filter = st.selectbox("选择 Nation", nation_options)  # 使用标准的国家选项
+    language_query = st.text_input("输入language")
+    topic_query = st.text_input("输入topic")
+    # nation_filter = st.selectbox("选择 Nation", nation_options)  # 使用标准的国家选项
     search_button = st.button("搜索")
 
     # 进行基于领域和 Nation 的搜索
     if search_button:
-        pass
+
     else:
         st.write("点击“搜索”按钮查看开发者列表。")
