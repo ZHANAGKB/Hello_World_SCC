@@ -29,6 +29,66 @@
 | **Kaibo Zhang**  ||
 |**Chen guangyao**|||
 
-## Change Log
 
 ## Deployment
+
+1. 克隆项目仓库（如果尚未完成）
+```
+git clone https://github.com/ZHANAGKB/Hello_World_SCC
+cd Hello_World_SCC
+```
+
+2. 创建和激活虚拟环境（推荐）
+
+为了隔离项目的依赖项，建议创建虚拟环境。
+
+对于 Windows：
+```
+python -m venv venv
+venv\Scripts\activate
+```
+对于 macOS 和 Linux：
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+3. 安装所需依赖项
+
+在项目根目录下（包含 requirements.txt 文件的目录），运行以下命令以安装所有依赖项。
+```
+pip install -r requirements.txt
+```
+或在 src/app.py 中使用令牌（确保此文件不会被公开存储库访问）。
+
+4. 配置 GitHub API 令牌（可选）
+
+如需访问 GitHub API，请将您的 GitHub API 令牌存储在环境变量中。
+```
+export GITHUB_TOKEN=your_github_token_here  # macOS 和 Linux
+set GITHUB_TOKEN=your_github_token_here  # Windows
+```
+
+5. 进入 src 目录
+
+项目的主文件 app.py 位于 src 目录，进入该目录以运行应用程序。
+```
+cd src
+```
+6. 运行 Streamlit 应用程序
+
+使用 Streamlit 启动应用程序：
+```
+streamlit run app.py
+```
+7. 访问应用
+
+Streamlit 默认会在本地运行应用程序。打开浏览器并访问以下地址以查看应用：
+
+http://localhost:8501
+
+注意事项
+
+- 如需终止应用运行，请按 Ctrl + C。
+- 生产环境时，确保 API 令牌的安全性并遵循 GitHub API 的速率限制。
+
+

@@ -1,0 +1,578 @@
+用户名,国家,关注者数,关注中,所属组织数量,Star 数,Fork 数,PushEvent,PullRequestEvent,IssuesEvent,参与过的仓库数量
+mojombo,San Francisco,24057,11,1,22295,5338,0,0,0,2
+defunkt,,22405,215,1,40894,6567,0,0,0,0
+pjhyett,San Francisco,8310,30,0,608,138,0,0,0,0
+wycats,"Portland, OR",10231,13,15,61651,8247,86,26,0,13
+ezmobius,In the NW,562,13,1,2803,495,0,0,0,0
+ivey,"West Hartford, CT",159,3,1,978,272,1,0,0,1
+evanphx,"Los Angeles, CA",1671,10,7,10873,1155,7,4,0,10
+vanpelt,San Francisco,414,20,0,3972,1538,25,9,3,31
+wayneeseguin,"Buffalo, NY",750,19,4,1854,704,56,32,0,17
+brynary,New York City,696,30,3,10480,2240,1,1,0,16
+kevinclark,,118,6,1,223,67,6,3,1,8
+technoweenie,,2666,18,1,11474,3077,0,0,0,1
+macournoyer,"Montreal, QC, Canada",1242,56,1,4778,1012,0,0,0,0
+takeo,"Portland, OR",102,11,0,764,132,0,0,0,1
+caged,Places,2384,44,2,3409,749,4,0,0,15
+topfunky,"Seattle, USA",1372,252,1,5711,1027,2,1,1,16
+anotherjesse,"San Francisco, CA",268,39,1,752,402,107,22,10,9
+roland,Tirana,29,1,0,6,2,0,0,0,0
+lukas,San Francisco,658,19,0,2653,1385,2,1,0,3
+tomtt,Amsterdam,63,12,0,277,114,0,0,0,0
+nitay,New York,54,0,0,2,3,0,0,0,7
+kevwil,"Frederick, CO",61,23,0,124,47,11,1,2,8
+KirinDave,"San Francisco, CA",419,10,0,1427,605,0,0,0,0
+jamesgolick,New York,648,30,3,3204,761,0,0,0,0
+atmos,GMT +/- 8,1342,167,0,8252,1507,0,0,0,0
+errfree,,10,0,0,4,0,0,0,0,0
+mojodna,"Bend, OR",607,114,9,11420,3478,1,0,5,14
+bmizerany,,1457,45,2,5617,1015,5,7,3,7
+jnewland,"Austin, TX",756,102,1,1854,603,32,5,1,14
+joshknowles,"Austin, TX",123,43,0,233,65,0,0,6,2
+hornbeck,"Lawton, OK",83,35,0,390,97,0,0,0,0
+jwhitmire,"Webster, NY",50,55,0,57,34,0,0,0,0
+elbowdonkey,,36,10,0,228,69,0,0,0,1
+reinh,"Portland, OR",206,1,0,1438,385,0,0,0,0
+knzai,"Oakland, CA",65,11,1,1201,126,78,0,0,4
+bs,"San Fransico, CA",145,53,1,1364,151,0,0,1,4
+rsanheim,"Madison, WI, NORTH AMERICA",219,32,0,293,57,10,6,3,8
+schacon,"Berlin, Germany",13759,26,8,15909,5553,46,36,2,16
+uggedal,"Oslo, Norway",189,0,1,140,41,2,0,0,1
+bruce,"Vancouver, WA",362,43,0,1745,782,0,0,0,3
+sam,"Dallas, TX",184,5,1,42,295,0,0,0,0
+mmower,"Berkshire, England",67,1,0,915,214,7,0,0,2
+abhay,"San Francisco, CA",176,1,0,284,285,56,48,4,18
+rabble,"Pōneke, Aotearoa",258,95,0,2517,635,10,0,21,11
+benburkert,NYC,217,7,1,1399,343,44,14,9,6
+indirect,San Francisco,1024,0,9,10188,1339,77,37,6,27
+fearoffish,"Skipton, UK",52,5,0,89,11,3,0,0,3
+ry,New York City,31886,39,1,6334,1340,10,12,12,9
+engineyard,"San Francisco, CA",19,0,0,3215,1445,3,4,1,5
+jsierles,"Sevilla, Spain",272,0,1,3566,2116,33,31,3,9
+tweibley,Florida,50,2,0,424,50,0,0,0,0
+peimei,"Palm Springs, CA",14,0,0,18,17,0,0,0,0
+brixen,"Portland, OR",353,5,4,6147,1541,3,0,0,31
+tmornini,San Francisco,54,4,0,439,22,0,0,0,0
+outerim,"SLC, UT",29,1,2,17,4,1,0,0,2
+daksis,"San Francisco, CA, USA",73,53,0,291,54,0,0,0,9
+sr,Europe,589,201,4,4352,1148,0,0,0,3
+lifo,,613,54,2,3204,461,0,0,2,1
+rsl,"Atlanta, GA",68,9,0,1163,179,0,0,0,0
+imownbey,"San Francisco, CA",89,66,0,185,46,0,0,0,1
+dylanegan,"Sydney, Australia",127,0,0,294,121,0,1,0,2
+jm,"Orlando, FL",529,31,2,3943,635,0,0,0,0
+kmarsh,"Perrysburg, OH",69,23,2,88,25,0,0,2,14
+jvantuyl,"San Francisco, California, USA",62,15,0,548,130,2,1,2,6
+BrianTheCoder,"Santa Monica,CA",96,32,0,183,42,0,0,0,0
+freeformz,"PDX Area, OR",228,39,0,25471,2474,0,0,2,9
+hassox,Austin,355,77,2,14874,2004,2,0,0,2
+automatthew,,77,16,1,522,96,0,0,0,0
+queso,"Cincinnati, Oh",346,23,1,341,100,0,0,0,0
+lancecarlson,"Ann Arbor, MI",134,103,2,973,269,0,0,0,9
+drnic,"Brisbane, Australia",1789,12,1,9118,1997,57,6,7,14
+lukesutton,South Australia,56,4,0,315,23,0,0,0,2
+danwrong,London,357,31,0,2774,540,0,0,0,0
+HamptonMakes,"New York, NY",677,6,3,4564,705,6,3,4,9
+jfrost,,24,1,0,543,23,0,0,0,0
+mattetti,"Los Angeles, CA",1082,10,3,6918,1163,10,5,1,7
+ctennis,"Indiana, USA",30,0,0,36,23,1,0,0,2
+lawrencepit,,38,6,0,201,121,0,0,0,0
+marcjeanson,Earth,48,22,0,46,8,0,0,0,0
+grempe,"Virginia, US",133,27,0,1592,349,0,0,0,0
+peterc,United Kingdom,683,62,0,2533,313,0,0,0,9
+ministrycentered,"Carlsbad, CA",14,0,0,99,11,0,0,0,0
+afarnham,"Houston, TX",38,20,0,7,6,0,0,0,1
+up_the_irons,Los Angeles,45,8,2,172,89,43,0,0,5
+cristibalan,Everywhere,96,33,1,1083,97,0,0,0,0
+heavysixer,Kansas City,107,39,1,736,149,0,0,2,1
+brosner,"Denver, CO",976,111,2,4813,2118,0,0,0,0
+danielmorrison,"Holland, MI",125,19,2,3863,306,30,16,1,13
+danielharan,"Montreal, QC, Canada",96,35,0,1381,302,0,0,0,0
+kvnsmth,,119,0,0,926,149,0,0,0,0
+collectiveidea,United States of America,50,0,0,18089,3687,27,45,5,15
+canadaduane,"Salt Lake City, UT, USA",182,22,3,1657,365,20,7,17,33
+corasaurus-hex,"Milwaukee, WI",110,3,0,1623,117,48,5,6,73
+dstrelau,"Minneapolis, MN",78,43,1,608,71,3,2,0,7
+sunny,"Paris, France",346,138,4,1477,221,52,24,5,18
+dkubb,"Mission, BC, Canada",552,12,1,8887,717,0,0,0,1
+jnicklas,"Gothenburg, Sweden",856,8,2,22209,2650,9,9,0,1
+richcollins,San Francisco,60,4,1,3016,340,1,0,0,1
+simonjefford,"Oxford, UK",38,3,0,155,44,7,0,0,4
+josh,"San Francisco, CA",2471,250,0,2841,220,180,26,41,34
+stevedekorte,Latent Space,674,17,1,4214,492,149,0,0,2
+leahneukirchen,"Munich, Germany",1287,9,2,7831,775,147,70,9,16
+jwreagor,"New Gillington, WI",54,8,0,167,21,0,0,0,0
+technomancy,USA,2119,0,2,18020,3593,30,3,10,10
+kenphused,"Orlando, FL",13,0,0,0,0,0,0,0,0
+rubyist,GA,394,0,1,1543,192,0,0,0,0
+ogc,"Nashville, TN",8,0,0,3,1,0,0,0,0
+lazyatom,"London, UK",216,18,0,544,124,1,3,0,6
+jdhuntington,"Redmond, WA",63,22,3,114,38,26,2,5,5
+sevenwire,"Costa Mesa, CA",8,0,0,864,149,0,0,0,1
+brandonarbini,"Costa Mesa, CA",31,5,2,14,1,0,0,0,0
+al3x,"Portland, Oregon, USA",1058,53,0,828,172,0,0,0,0
+toolmantim,"Melbourne, Australia",462,66,3,5200,502,4,1,0,2
+nicksieger,"Minneapolis, MN, USA",288,21,6,963,157,7,2,0,16
+jicksta,"Austin, TX",101,12,1,544,128,0,0,0,0
+joshsusser,"San Francisco, CA",292,11,1,478,61,0,0,0,0
+jcrosby,,194,19,1,1512,222,0,0,0,0
+thewoolleyman,"San Francisco, CA",138,49,4,761,174,1,0,0,1
+technicalpickles,"Atlanta, GA",1004,191,2,6143,887,28,3,8,35
+halbtuerke,,62,34,0,77,10,0,0,0,13
+ryanb,Southern Oregon,7717,96,2,26619,5136,2,0,8,11
+cnix,"Ivor, VA",38,19,0,28,6,3,0,0,1
+tpitale,"Saint Louis, MO",132,71,2,1772,249,11,6,1,4
+cdcarter,,44,15,0,113,41,0,0,0,0
+atduskgreg,"Los Angeles, CA",707,39,0,4205,1135,0,0,0,0
+heff,San Francisco,403,12,7,11750,1436,22,15,18,7
+entryway,"floyd, virginia",7,0,0,11,2,0,0,0,0
+aflatter,"Hamburg, Germany",88,39,3,726,193,0,0,0,1
+schofield,North Bay,22,0,0,22,5,0,0,0,1
+rbazinet,"Woodstock, CT",53,137,1,33,10,0,0,0,0
+tranqy,"Vernon, CT",31,12,1,29,4,0,0,0,37
+robey,"San José, CA",548,17,0,1019,292,1,2,2,6
+bkeepers,Sailing,2028,61,2,17780,2156,48,33,2,19
+wilson,"New York, NY",87,7,1,440,85,0,0,0,0
+tommorris,London,231,70,4,402,246,7,1,0,2
+charlesroper,UK,53,51,1,998,176,5,3,1,12
+adamwiggins,Berlin,1000,16,0,48443,4819,0,0,0,0
+myobie,"Berlin, Germany",218,48,1,1759,282,10,0,0,6
+samgranieri,,50,111,1,72,20,1,0,0,37
+adam,Houston TX,0,0,0,23,6,0,0,0,0
+mtodd,"Philadelphia, PA",862,502,3,771,243,0,0,0,5
+timcharper,Utah,282,37,1,2785,802,2,1,0,5
+paul,"Boulder, CO",131,3,1,982,101,21,2,0,9
+DocSavage,"Ashburn, VA",110,20,1,630,154,17,1,0,20
+shane,"Chicago, IL",10,1,0,143,5,0,0,0,0
+vlucas,"Oklahoma City, OK",855,35,3,18111,1425,22,9,3,11
+nex3,Seattle,2244,0,2,10869,1970,88,42,13,22
+norbauer,"Boston, Massachusetts, USA",32,0,0,155,32,0,0,0,0
+crigor,,47,0,0,79,41,0,0,0,0
+knowtheory,Bay Area,216,87,3,57011,11406,1,1,0,4
+bernerdschaefer,"Portland, OR",133,0,0,10593,1567,0,0,0,0
+zapnap,,220,53,2,2218,618,1,1,0,2
+galinv,,7,0,0,0,0,0,0,0,0
+NZKoz,"Wellington, New Zealand",390,0,1,775,2343,0,0,0,0
+croaky,,420,349,0,421,49,47,15,0,4
+jeremy,"San Diego, CA",1482,128,6,5239,1201,48,31,16,36
+ELLIOTTCABLE,"Chicago, IL",444,826,3,2559,260,9,1,1,8
+monde,,106,34,1,2008,1349,27,38,9,12
+ryanbriones,"Seattle, WA",138,33,2,243,85,0,0,0,0
+wfarr,"Atlanta, GA",294,34,1,2891,440,68,59,2,6
+jseifer,"Orlando, FL",240,21,0,234,61,0,0,0,0
+symlink,"Oakland, CA",26,19,1,1,0,3,0,0,7
+sprsquish,California,187,58,0,19,4,8,1,0,4
+codahale,"Fort Collins, CO",2132,18,0,4095,607,93,52,1,3
+zackchandler,San Francisco Bay Area,22,0,0,110,33,0,0,0,0
+jakehow,"Austin, TX",46,12,2,397,81,0,0,0,1
+evan,Boston,211,7,0,1667,376,1,0,0,2
+olleolleolle,sunny Malmö in Sweden,366,334,8,15596,2141,89,64,3,80
+chrismcg,"Banbridge, Northern Ireland",71,14,1,887,595,5,0,0,7
+chuyeow,Singapore,137,56,0,222,66,0,0,0,0
+mloughran,Cardiff,82,8,0,2656,354,1,1,0,4
+matthewford,UK,79,54,0,64,16,97,41,1,32
+henrik,"Todmorden, UK",430,23,3,2597,445,3,0,0,6
+tkersey,"Los Angeles, CA",459,1075,1,190,21,1,0,0,299
+acf,Scotland,59,2,0,17,2,0,0,0,0
+dan,"Austin, Texas",466,16,1,31,5,0,0,0,1
+seebq,"Atlanta, GA",82,15,3,43,15,0,0,0,0
+delynn,Denver,42,13,0,221,217,0,0,0,0
+spicycode,US/Eastern,290,31,0,641,103,41,1,3,6
+ntalbott,"Fuquay Varina, NC, USA",135,46,0,251,58,0,0,0,0
+rdempsey,"McLean, VA",92,22,0,186,79,0,0,0,0
+mjankowski,CYBERSPACE,158,0,0,175,13,92,25,3,13
+danahern,"Indianola, WA",36,1,0,12,2,0,0,0,0
+dctanner,"London, UK",84,11,0,266,75,4,0,0,4
+alexvollmer,"Seattle, WA",80,8,0,1112,264,0,0,0,0
+RailsAddict,,6,0,0,2,0,0,0,0,0
+scharfie,"Morgantown, WV",32,5,0,149,37,0,0,0,1
+daikini,"Buhl, ID",29,1,1,155,40,0,0,0,0
+tdreyno,"Portland, OR",402,1,1,793,122,61,68,0,6
+ryenski,"Austin, TX",45,50,3,144,64,2,0,0,9
+jnunemaker,US,1976,270,1,18440,3546,12,6,8,6
+shayarnett,,122,36,0,66,14,0,0,0,0
+chad,Arkansas,927,41,0,1182,155,0,0,0,1
+superphly,"Mexico City, Mexico",42,18,1,3,4,1,0,0,1
+swhitt,"Houston, TX",25,25,0,61,18,0,0,0,1
+bryanl,"Baltimore, MD",547,7,2,7199,878,0,0,0,2
+jschairb,"San Antonio, TX",47,28,0,596,87,0,0,0,2
+adelcambre,"Boulder, CO",174,5,1,976,275,0,0,0,0
+psi,"Philadelphia, PA",44,9,2,46,55,1,1,0,1
+watsonian,,103,1,0,81,35,7,3,0,11
+marcel,"San Francisco, CA",227,24,0,891,487,0,0,0,14
+brapse,Mr. Wordwide,62,11,0,393,53,8,2,0,1
+francois,"Sherbrooke, QC, Canada",103,2,0,512,122,8,0,3,4
+aditya,New York,38,8,0,23,7,0,0,0,0
+agile,"FTW, TX",63,94,3,23,2,1,0,0,9
+itstommymorgan,"Greenville, SC",88,16,0,169,95,0,0,0,0
+toretore,,37,4,0,1099,236,3,5,0,1
+vangberg,"Aalborg, Denmark",116,20,1,587,100,0,0,6,7
+jchris,"Portland, OR",683,40,3,2522,541,97,46,14,10
+gspederson,"Orlando, FL USA",16,4,0,4,3,0,0,0,0
+psq,"Saratoga, CA",49,0,0,293,101,0,0,0,0
+andreimaxim,"Bucharest, Romania",49,3,0,25,18,2,0,0,3
+robbyrussell,"Portland, Oregon USA",4722,89,1,174699,26176,2,1,0,2
+kommen,"Vienna, Austria",88,7,4,2047,111,25,4,0,3
+protocool,"Comox Valley, BC, Canada",74,0,0,1039,92,0,0,0,0
+maddox,"Richmond, Va",874,6,2,6317,1167,1,3,1,9
+jswanner,"Seattle, WA",92,5,2,1024,139,10,0,4,4
+kastner,New Jersey,217,57,0,478,74,3,0,0,15
+halorgium,Floating down a mountain either by ski or foot,0,0,0,6975,2166,0,0,0,0
+merb,,5,0,0,295,95,0,0,0,1
+lachie,"Sydney, Australia",84,28,1,293,73,0,0,0,3
+anildigital,"Pune, India",125,36,3,233,75,1,0,1,4
+cwsaylor,"San Francisco, CA",49,22,0,115,22,0,0,0,3
+pdsphil,"Colorado Springs, CO",25,4,0,30,28,0,0,0,1
+kamal,San Francisco,161,62,3,418,70,24,38,0,3
+bleything,"Seattle, Washington",178,43,0,782,318,0,0,0,0
+caplis,"Melbourne Beach, FL",25,19,0,25,6,0,0,0,2
+jqr,"Indianapolis, IN, USA",145,63,0,2151,357,9,1,2,6
+mattslack,Michigan,36,7,1,26,3,3,0,0,5
+tjogin,Sweden,20,6,1,2,0,0,0,0,0
+robbevan,London,28,21,1,41,12,24,1,0,1
+marten,"Beilen, Netherlands",30,2,2,104,25,2,1,0,2
+gnufied,"Atlanta, US",298,115,5,398,91,31,10,2,23
+hoverbird,"Asheville, NC",426,200,3,646,47,0,0,0,10
+beccasaurus,"Seattle, WA ☔️",465,0,2,168,28,0,0,0,0
+joshuamckenty,,112,97,3,128,91,8,0,1,7
+dfl,"Edinburgh, Scotland",39,17,0,174,23,16,3,0,62
+floydprice,UK,15,3,0,15,7,0,0,0,16
+allison-lara,"Portland, OR",34,8,0,6,1,0,0,0,0
+activestylus,,24,4,0,276,23,0,0,0,0
+archfear,"San Francisco, CA",53,8,0,29,28,0,0,0,1
+mudge,,113,15,3,827,134,62,27,4,9
+johnny,,46,4,0,1537,446,12,0,0,3
+scott-steadman,"Los Angeles, CA",41,29,1,738,139,6,0,0,3
+noteflakes,"Bourgogne, France",228,29,0,3222,149,76,3,4,7
+doudou,"Rio de Janeiro, Brazil",72,1,6,169,50,71,57,0,30
+david,Portugal,63,0,1,35,130,132,3,0,16
+pedromg,Porto,45,63,2,90,171,0,0,0,1
+wayne,Home,11,1,0,8,1,0,0,0,3
+Steve,Austin,31,0,2,38,21,0,0,0,0
+mark,"Buffalo, NY",87,26,1,147,23,1,0,0,9
+ambethia,"St Petersburg, FL",275,98,5,2352,588,9,0,0,3
+halfbyte,"Hamburg, Germany",202,9,2,806,211,0,0,0,0
+cannikin,"San Diego, CA",172,6,4,385,181,57,25,18,6
+anthonylewis,"Austin, TX",55,1,2,59,19,1,0,0,1
+mcornick,"Reston, VA",31,6,0,905,51,90,22,0,6
+itfische,San Francisco,28,0,0,21,4,0,0,0,0
+ivoencarnacao,,14,0,0,0,0,0,0,0,0
+mcg,Summerville SC,32,2,0,16,1,263,2,0,5
+sco,"San Francisco, California",551,513,1,130,14,0,0,0,6
+norio,Japan,114,79,0,194,97,0,0,0,64
+anttih,"Helsinki, Finland",63,36,0,356,55,34,19,5,20
+vintrepid,"Lotus, CA",8,3,0,490,563,0,0,0,0
+bigfleet,"Charlotte, NC",110,26,2,662,305,3,0,2,3
+lypanov,"Voorburg, Netherlands",13,0,0,39,14,0,1,0,11
+ropiku,"London, UK",63,45,0,124,86,0,0,0,0
+rds,UK,10,0,0,18,7,0,0,0,0
+zmoazeni,"Rapid City, MI",138,48,1,3464,285,0,0,0,0
+edwinmoss,Utah,14,1,0,68,66,0,0,0,0
+tomfarm,"Koblenz, Germany",27,32,0,0,1,11,4,2,2
+TheNicholasNick,New Zealand,20,0,0,45,20,11,2,1,5
+bumi,,480,553,3,1405,511,68,25,13,23
+dag,Sweden,101,30,1,3534,605,0,0,0,0
+ruckus,"San Francisco, CA.",66,20,0,2037,594,0,0,0,1
+mlins,"Madison, WI",17,3,0,100,35,5,0,0,1
+luke,,0,0,0,3,0,0,0,0,0
+labria,,60,8,2,109,34,4,0,0,1
+raymorgan,,10,0,0,7,3,0,0,0,0
+edward,"Ottawa, Ontario, Canada",334,79,2,220,56,0,0,0,1
+dsiem,Germany,12,3,0,4,3,0,0,0,0
+talaris,"WA, USA",41,20,3,13,6,0,0,0,1
+jrun,"Milwaukee, WI",30,6,0,70,53,0,0,0,0
+chris,"Bend, OR",71,2,0,585,85,0,0,0,1
+thejohnny,,24,4,0,30,9,5,7,0,10
+vic,Mexico City,472,1018,24,3420,481,0,0,0,1
+thelibrarian,,9,3,0,5,2,0,0,1,4
+harukizaemon,"Melbourne, Victoria, Australia",91,2,0,42,13,0,0,0,0
+ttcremers,Monster,21,6,0,15,3,0,0,0,0
+bitbckt,"Maine, United States",56,12,0,23,3,0,0,0,0
+brupm,"Miami, Florida",65,23,1,51,0,0,0,0,5
+v3rb0,,7,5,0,1,0,0,0,0,0
+hchoroomi,,60,48,0,158,51,0,0,0,33
+igouss,"Montreal, QC",25,14,0,19,11,0,0,0,0
+jamesmacaulay,Toronto,154,0,0,1115,83,0,0,0,0
+jacobeus,Dubai UAE,23,0,1,45,6,0,0,0,0
+djd,CA,11,0,0,0,0,34,0,0,3
+octave,"Portland, OR",18,5,1,0,1,0,0,2,2
+damon,"Austin, TX",136,94,2,32,8,0,0,0,0
+sbusso,Nelson (New Zealand),189,153,1,546,73,33,5,0,250
+tobi,"Ottawa, Canada",2292,54,1,71243,11151,9,0,1,20
+raggi,California or Bermuda,812,249,7,13758,894,63,37,6,34
+tooky,"Hampshire, United Kingdom",53,23,1,173,77,7,5,0,5
+aurelian,,44,8,0,316,35,4,0,0,5
+cnantais,,8,3,0,0,0,0,0,0,0
+gthoppae,"La Sarraz, Switzerland",13,17,0,0,0,0,0,0,0
+lukemelia,NYC,240,8,4,7885,1740,115,41,1,6
+ncdc,Maryland,233,37,3,17210,2455,5,4,0,7
+bendik,⚓️,50,87,0,1,0,0,0,0,5
+sbraford,"Portland, OR",23,15,0,20,11,6,0,0,6
+mpalmer,,101,0,0,1361,284,3,1,1,6
+jens,Stockholm / Sweden,13,1,1,1,2,0,0,0,0
+moneyspyder,London,3,0,0,12,15,0,0,0,0
+tslocke,UK,76,1,1,504,157,0,0,1,4
+jellybob,"Southampton, UK",53,6,1,171,73,0,0,0,0
+mascarenhas,"Montreal, Canada",111,13,2,996,176,9,2,0,4
+pius,"San Francisco, CA",79,42,0,174,61,0,0,0,2
+nullstyle,The West Side,164,13,0,8866,820,0,0,0,15
+guillaume,Quebec,29,10,0,90,4,0,0,0,0
+samaaron,"Sheffield, UK",1806,30,6,11275,1147,77,0,1,6
+endersonmaia,"Arapiraca, Alagoas, Brazil",117,48,0,735,306,85,41,2,9
+flowers,"Sevilla, Spain",12,0,0,6,2,0,0,0,0
+adamlogic,"Columbus, Ohio",94,0,1,14990,2867,18,11,5,6
+alx,Southeast Asia,207,93,2,3250,740,157,3,6,29
+sproutit,"Los Altos, CA",5,0,0,968,148,0,0,0,0
+augustl,"Oslo, Norway",200,0,1,2720,345,9,0,0,2
+eb1024,,6,0,0,1,0,0,0,0,0
+tpope,"Brooklyn, NY",21666,20,1,112104,6475,27,9,30,25
+methodmissing,"Funchal, Madeira, Portugal",342,182,3,3451,666,0,0,0,1
+mariusz,Berlin,62,3,0,96,21,0,0,0,0
+palmamartin,,32,90,0,27,0,2,0,0,3
+garyblessington,"Portland, OR",18,0,0,524,112,0,0,0,0
+kangax,New York,3331,16,6,53780,7139,0,0,0,0
+sd,New York City,183,0,1,153,50,110,25,17,17
+drew,"San Diego, CA",36,6,0,0,0,0,0,0,0
+brainopia,"Saint-Petersburg, Russia",187,19,1,1840,244,0,0,0,0
+wvl,Ottawa,31,11,0,81,15,0,0,0,0
+therealadam,"Portland, OR",234,185,0,778,167,1,0,0,41
+therubymug,"Portland, Oregon",121,10,0,351,62,0,0,0,0
+chrisgriffin,"Los Angeles, CA",36,28,0,0,0,0,0,0,0
+jasonherald,"Christiansburg, VA",18,10,0,3,0,8,0,0,2
+bruno,"NSW, Australia",73,79,3,32,39,0,0,0,0
+revans,"Great Outdoors, Idaho",110,21,1,121,33,2,0,0,8
+jameshill,"Sydney, Australia",40,28,1,0,1,16,12,0,3
+trankas,,10,15,0,3,0,0,0,0,0
+crafterm,"Melbourne, Australia",188,107,1,675,181,0,0,0,0
+mattallen,Australia,35,0,0,65,16,0,0,0,0
+dgoodlad,"Melbourne, Australia",122,7,0,8706,883,0,0,1,1
+esaul,,13,0,0,3,0,0,0,0,0
+trevorturk,Chicago,345,189,0,1777,199,0,1,11,61
+svrishi,,10,0,0,2,0,0,0,0,0
+rtomayko,,2367,100,0,13170,1811,0,0,0,0
+timburks,"Los Altos, CA",701,119,4,3262,563,112,0,0,29
+gaveen,Sri Lanka,39,19,1,77,7,54,3,0,33
+waqas,"Lahore, Pakistan",16,0,0,0,0,0,0,0,0
+dpetersen,"Bend, OR",35,1,0,28,9,0,0,0,0
+antonithock,Poland,19,1,0,0,0,0,0,0,0
+fivethreeo,"Levanger, Norway",75,30,0,11227,934,8,0,0,3
+tandibar,"Remscheid, Germany",39,25,2,81,45,3,1,0,4
+cmer,"Frisco, DFW, TX",140,34,0,1883,403,0,0,4,8
+trotter,"Santa Monica, CA",165,0,2,647,165,0,0,0,0
+dudleyf,,37,3,1,652,178,0,0,0,0
+kevinansfield,"Tunbridge Wells, UK",155,0,1,22347,3665,92,76,4,6
+luigi,"Atlanta, GA",131,28,1,349,144,0,0,0,6
+gotascii,"San Francisco, CA",43,10,0,144,13,0,0,0,3
+rozza,United Kingdom,320,23,2,1428,629,68,31,0,16
+frankbolero,Sweden,43,69,0,0,0,2,0,0,11
+shadowmaru,"Berlin, DE",166,19,1,256,68,0,0,0,0
+antunderwood,"Watford, UK",49,4,0,157,69,0,0,0,1
+dfugere,Montreal,28,28,0,7,0,0,0,0,0
+james,London,183,37,1,166,61,23,14,3,7
+xraid,,9,2,0,9,1,0,0,0,0
+wijet,"Łódź, Poland",36,15,1,152,28,0,0,0,0
+parabuzzle,"Port Orange, FL",0,0,0,269,73,0,0,0,0
+damienmckenna,"NH, USA",43,0,0,60,31,0,0,3,8
+nz,"Austin, TX",63,37,2,205,42,1,0,0,7
+tynino,,10,1,0,0,2,0,0,0,0
+allan,ch,10,5,0,34,5,0,0,0,0
+bscofield,"Durham, NC",94,12,0,228,49,1,0,0,5
+tkofol,"Boston, MA",6,1,0,7,2,0,0,0,0
+trey,"Vermont, USA",156,180,1,181,28,142,0,0,27
+jimmy,"San Francisco, CA",49,2,0,29,9,0,0,0,0
+foca,,374,96,2,1430,364,5,2,3,12
+mathie,"Teignmouth, United Kingdom",84,35,1,123,52,0,0,0,0
+jarkko,"Kangasala, Finland",27,0,1,74,15,0,0,0,0
+norbert,,86,61,0,545,88,0,0,0,0
+jduff,"Ottawa, Ontario",135,56,2,264,75,0,1,0,4
+gpaul,"South Africa, Stellenbosch",38,5,0,279,113,0,0,0,0
+pablete,"San Francisco, CA",82,92,0,750,100,1,0,1,4
+mokolabs,"San Diego, CA",64,36,1,1096,132,11,1,1,13
+awilliam,,107,0,2,299,103,4,0,0,2
+dysinger,Nearby,243,12,0,518,78,19,3,3,5
+intabulas,"Eagle, ID",71,48,0,189,22,2,0,0,3
+avalade,United States,24,11,1,63,18,0,0,0,0
+ljsc,"Washington, DC",36,19,0,33,16,0,0,0,1
+djdarkbeat,"Boise, Idaho",34,174,2,28,10,0,0,0,0
+yrashk,"Comox, BC, Canada",746,604,7,3187,608,189,40,2,8
+famulus,,35,1,0,60,14,2,0,0,2
+rks,"Norwood, MA",21,12,2,3,1,18,4,0,19
+chriskaukis,"Minneapolis, MN",20,3,0,0,0,0,0,0,0
+caffo,,327,0,0,393,49,9,2,0,6
+timperrett,"San Francisco, CA",221,16,1,1253,310,0,0,0,0
+voodootikigod,"Reston, VA",710,115,2,8120,1497,0,0,0,0
+kwe,"Wales, UK",25,23,0,68,9,5,0,0,4
+bernd,Hamburg/Germany,150,35,1,1067,282,84,59,5,5
+cblackburn,"Kansas City, USA",6,2,0,1,0,0,0,0,0
+kunstreich,Berlin,20,12,0,408,54,0,0,0,0
+emanuel,"Braga, Portugal",39,44,1,6,1,0,0,0,0
+cdwillie76,,13,6,1,10,2,0,0,0,3
+mando,"Austin, TX",61,49,2,68,14,0,0,0,0
+zh,JAPAN,162,60,0,522,206,8,7,0,18
+brandon-beacher,"Atlanta, GA",38,45,0,577,21,0,0,0,0
+eric,"Seattle, WA",252,42,2,5640,954,5,0,3,8
+iwarshak,"San Antonio, TX",41,6,0,251,92,1,2,1,4
+sudara,"Vienna, Austria",271,14,1,2530,324,58,20,12,17
+choonkeat,Singapore,182,20,0,787,112,44,26,4,5
+cbowns,West Coast (keyboard and/or trailhead),91,40,1,20592,2267,0,0,0,1
+aussiegeek,"Melbourne, Australia",65,0,1,231,81,1,0,0,2
+zacheryph,"Davenport, IA",42,33,1,56,100,64,2,3,11
+dustym,"Portland, ME",44,20,0,0,0,0,0,0,0
+benjamin,"Melbourne, Australia",23,3,0,24,5,0,0,0,0
+jackdempsey,"San Francisco, CA",89,7,0,1747,431,0,0,0,0
+blahutka,Czech republic,14,1,0,51,3,0,0,0,0
+chrisabad-zz,"Clayton, CA",9,1,0,1,0,0,0,0,0
+AlexJWayne,,55,1,1,588,115,6,0,0,2
+nakajima,,789,146,0,4994,783,197,16,0,37
+mreid,"Canberra, Australia",104,10,0,426,371,0,0,0,0
+melo,"Figueira da Foz, Portugal",283,164,1,675,280,3,0,0,2
+JESii,http://www.edpci.com,24,9,0,208,101,0,0,1,2
+msimkins,"Harlow, Essex, England",12,12,0,3,1,0,0,0,1
+angelo,,34,42,0,45,20,0,0,0,0
+wrenchlabs,"Charlotte, NC",3,0,0,2,1,0,0,0,0
+jfcouture,Montreal,32,10,0,26,9,0,0,0,0
+ctran,"San Diego, CA",70,4,0,4539,711,0,0,0,6
+garyharan,"Montreal, QC, Canada",102,79,0,204,30,0,0,0,1
+Zelnox,,27,7,0,23,10,0,0,0,1
+saimonmoore,"Barcelona, Spain",81,53,0,609,219,45,0,0,1
+spencer,,8,1,0,13,3,0,0,0,0
+santry,,13,0,0,52,28,22,8,1,1
+urubatan,Brazil,129,4,0,95,31,0,0,0,0
+kjf,"Dublin, Ireland",30,36,0,11,0,0,0,0,3
+judofyr,"Oslo, Norway",536,56,4,12054,811,9,5,4,11
+JJ,"Granada, Spain, Europe",998,51,3,4119,2155,36,6,23,24
+tfwright,NxNW,47,9,0,613,135,30,4,0,3
+scoop,"Wiesbaden, Germany",41,4,0,121,33,0,0,0,1
+rob,,15,2,0,2,0,0,0,0,2
+mkhl,"Leipzig, Germany",164,89,1,481,72,2,4,2,13
+nmerouze,Paris / Tokyo,132,3,0,452,207,0,0,0,0
+franc,utrecht,15,10,0,44,24,2,0,0,2
+sphire,"Würzburg, Germany",11,4,0,0,0,0,0,0,1
+dbr,Australia,181,45,0,2253,330,2,3,1,16
+pd,,80,10,0,264,78,12,0,0,1
+kieranj,"Norwich, Norfolk, UK",14,1,1,21,17,0,0,0,0
+japj,Netherlands,72,7,0,107,29,10,0,2,24
+atharh,"Kuala Lumpur, Malaysia",29,21,0,11,3,0,0,0,8
+speck,Seattle,19,3,0,1,2,0,0,0,0
+leemhenson,London,56,24,0,1439,71,1,0,2,3
+pentikos,Netherlands,16,1,0,0,0,0,0,0,0
+pontus,"Uppsala, Sweden",22,5,0,70,14,13,23,60,42
+shinzui,Los Angeles / San Francisco,29,22,0,90,29,6,0,0,11
+mehdi,,6,2,0,16,3,0,0,0,0
+mansfiem,San Francisco,11,11,0,5,3,0,0,0,1
+dbcm,"Berlengas, Portugal",41,25,0,411,76,0,0,0,0
+brett,"San Francisco, CA, USA",51,223,0,28,8,7,5,0,12
+jredville,"Ventura, CA",45,17,1,333,76,0,0,0,1
+mwilliams,"New Paltz, NY",41,30,0,635,106,0,0,0,0
+jendrik,,8,1,1,15,0,3,0,0,2
+marmbrus,"Berkeley, CA",294,0,2,46,48,2,0,0,2
+auser,"Mountain View, CA",1009,417,2,2559,1042,23,0,0,97
+fauxparse,"Te Whanganui-a-Tara, New Zealand",43,6,0,223,196,66,0,0,5
+n0ha,,8,10,0,62,17,1,1,0,7
+hughbien,,25,23,0,426,43,1,0,0,3
+vishnugopal,"Thiruvananthapuram, India",126,0,0,169,39,16,2,0,1
+ericallam,"London, UK",282,32,2,631,1124,133,48,25,17
+steveh,"Wellington, New Zealand",60,9,7,98,31,3,0,1,58
+jpease,"Boise, ID",31,5,0,40,5,17,0,0,2
+skimua,,6,37,0,0,0,0,0,0,1
+codafoo,"Irvine, CA",13,7,0,11,0,6,0,0,28
+fusedevice,Slovenia,7,0,0,9,1,0,0,0,0
+NaPs,"Paris, FR.",39,34,2,177,141,1,0,1,2
+hallski,"Stockholm, Sweden",71,6,0,276,57,0,0,0,0
+aroth,,29,12,0,579,91,0,0,1,3
+brainvat,"Berkeley, CA",22,6,0,63,66,3,0,0,1
+schelcj,,13,15,0,55,37,0,0,1,1
+drudru,"Bay Area, CA",26,0,0,880,111,1,1,3,9
+etng,,102,20,0,48,96,9,1,0,201
+bct,"Edmonton, Canada",30,30,1,108,18,34,4,0,9
+rmanalan,"Oakland, CA",79,27,0,496,85,0,0,0,1
+AndrewO,"Annapolis, MD",41,18,0,159,24,1,0,0,11
+njackson,"Portland, OR",21,0,0,33,13,0,0,0,2
+Sutto,"Melbourne, Australia",352,240,2,2196,332,0,0,0,0
+roop,"Mysore, India",52,1,1,219,46,1,0,0,3
+ipvideomarketinfo,,6,0,0,0,0,0,0,0,0
+kad3nce,"Eugene, OR",16,8,0,92,7,0,0,3,40
+marvin,saxony_germany,78,207,1,83,24,0,0,0,1
+critzjm,"Dallas, TX",20,0,0,3,0,0,0,0,0
+ook,"Paris, France",58,42,1,187,38,0,0,0,5
+jhill,Philadelphia,21,0,2,1,0,0,0,0,0
+amoeba,WA USA,100,116,1,438,220,68,23,17,29
+mbbx6spp,Illinois,493,0,4,651,135,5,0,0,6
+tomtaylor,"London, UK",249,57,2,1436,239,19,16,5,11
+BJClark,"Portland, OR",31,12,0,183,91,18,6,1,3
+purzelrakete,Berlin,130,62,0,598,74,1,1,0,1
+nmeans,"Austin, TX",79,4,0,83,25,0,0,0,0
+alexkwolfe,"Austin, TX",21,0,0,281,53,0,0,0,0
+jaikoo,London,50,24,0,14,6,0,0,0,1
+timurvafin,,47,18,1,24,10,0,0,0,1
+jarib,"Oslo, Norway",339,130,7,1424,397,2,1,0,4
+davie,london,14,3,0,22,13,0,0,0,0
+jdp,NYC,101,92,1,788,284,1,0,0,7
+scottymac,"Chicago, IL",25,13,0,109,24,0,0,0,0
+komapa,"New York, NY",75,78,0,206,36,0,0,0,3
+usergenic,"Eagle, ID",71,27,0,9425,920,0,0,0,0
+mikeal,San Francisco,4922,104,16,18626,1695,46,0,1,5
+Shazburg,San Diego,9,6,0,25,5,0,0,0,0
+wiremine,,12,2,0,28,1,0,0,0,0
+captproton,"Pacifica, CA",28,45,2,558,103,167,66,0,12
+ludo,"Austin, TX",46,1,0,1023,387,0,0,0,0
+arisbartee,"Dallas, TX",38,82,0,43,2,0,0,0,1
+edallen,"Berkeley, California",20,19,0,29,10,0,0,1,2
+hatch,"Orange County, CA",16,11,0,0,1,0,0,0,2
+nickpad,"Sydney, Australia",21,7,0,17,6,0,0,0,3
+joaovitor,"Belo Horizonte, MG, Brasil",118,77,0,118,30,0,0,0,0
+ckhsponge,"San Francisco, CA",16,3,0,96,19,13,2,3,7
+fd,Belgium,122,70,5,352,91,3,1,0,6
+daaku,,501,159,0,798,211,43,23,2,40
+pfig,"London, UK",57,33,0,109,54,0,0,0,0
+natedaiger,Los Angeles,7,0,1,297,35,0,0,0,3
+probablycorey,San Francisco,752,2,3,3422,869,0,0,0,1
+ymendel,,220,1,3,396,53,16,0,0,6
+jmhodges,San Francisco,495,30,0,4243,701,60,57,3,9
+nickel,"Sevilla, España.",44,15,0,0,0,2,0,0,1
+buru,"Kyiv, Ukraine",9,6,0,18,12,0,0,0,10
+wdperson,Ohio,23,5,0,59,8,0,0,0,0
+chromakey-io,"Portland, OR",26,2,0,49,6,0,0,0,0
+jstetser,,5,0,0,6,0,0,0,0,0
+ianloic,"Alameda, California",133,42,0,161,35,0,0,1,1
+bansalakhil,"New Delhi, India",22,5,0,127,50,0,0,0,1
+jesseproudman,"Seattle, WA",42,1,0,44,21,0,0,0,0
+h-lame,"London, UK",85,0,3,177,131,6,6,0,6
+emilevdb,,7,1,0,0,0,0,0,0,0
+mdub,"Melbourne, AU",100,15,0,3352,485,6,0,2,7
+martinjandrews,"Melbourne, Australia",37,0,1,35,49,0,0,0,0
+wpiekutowski,"Białystok, Poland",27,5,1,19,1,17,10,0,11
+lukeredpath,"Colchester, UK",570,16,0,2739,461,2,0,1,6
+andykent,"London, England",86,2,2,517,70,7,2,2,19
+codehugger,Iceland,16,5,1,20,6,2,0,0,4
+aemadrid,"Salt Lake City, UT",23,3,0,131,46,0,0,0,0
+mulder,"Waterloo, Ontario",34,17,0,19,3,0,0,0,0
+jeremyboles,,26,0,2,6,2,0,0,0,0
+moorbrook,CA,7,1,0,0,0,0,0,0,3
+humandoing,"Comox, BC",15,1,0,2,0,2,0,0,7
+george,"Texas, US",60,11,1,26,3,0,0,0,1
+dramsay,,17,0,0,69,57,0,0,0,1
+jonmagic,San Mateo California,462,55,1,9123,938,25,10,0,17
+zpinter,"Nashville, TN",20,1,0,61,12,0,0,0,0
+banderson623,"Rocklin, CA",55,49,0,270,42,0,0,0,1
+bigethan,"San Francisco, ca",23,3,0,37,12,0,0,0,2
+lmarlow,,30,42,0,254,60,0,0,0,1
+jrimmer,"Los Angeles, California",16,3,0,2,1,0,0,0,1
+olly,London,44,31,0,51,20,0,0,0,0
+hookercookerman,,44,8,0,235,40,0,0,0,0
+doxavore,"Chicago, Illinois",26,9,1,23,13,24,18,0,3
+Bjwebb,"Cambridge, UK",31,22,1,112,47,91,35,4,13
+daniel,Enköping,60,1,0,8,8,0,0,0,0
+qerub,Sweden,100,287,0,593,67,0,0,0,16
+leavengood,"Boynton Beach, FL",28,0,1,159,40,1,0,0,1
+pjjw,"new york, ny",37,33,0,64,17,1,1,0,10
+barrym,,20,2,0,44,3,0,0,0,0
+ph,Montreal,163,144,0,323,115,0,0,0,0
+pbx,Greenfield MA USA,70,38,0,12,6,0,0,0,5
+fspeirs,"Greenock, Scotland",137,11,0,183,32,0,0,0,0
+fernandoallen,Goiânia / Brazil,8,2,1,0,0,0,0,0,0
+davidsmalley,"Harrogate, UK",35,6,0,24,8,0,0,0,0
+njonsson,Houston,75,131,2,393,28,4,0,0,1
+ecin,,40,10,3,280,143,0,0,0,0
+progrium,"Austin, TX",3808,93,1,21420,2112,73,8,8,19
+jhsu,"New York, NY",102,80,3,358,158,2,0,0,11
