@@ -46,3 +46,21 @@ def get_user_profile(username):
         profile["所属组织数量"] = 0  # 如果请求失败，组织数量为 0
     # profile_df = pd.DataFrame([profile])
     return profile
+
+
+def search_repositories_by_language_and_topic(language, topic, headers):
+    """
+    使用 GitHub 搜索 API 组合搜索项目，按编程语言和主题标签筛选
+    """
+    # 构建搜索查询
+    query = f"language:{language}+topic:{topic}"
+    url = f"https://api.github.com/search/repositories?q={query}"
+
+    response = requests.get(url, headers=headers)
+
+    if response.status_code == 200:
+        repositories = response.json().get('items', [])
+        for repo in repositories:
+            print(f"项目名: {repo['name']}, 拥有者: {repo['owner']['login']}, 项目主页: {repo['html_url']}")
+    else:
+        print(f"请求失败，状态码: {response.status_code}")
